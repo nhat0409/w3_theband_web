@@ -56,6 +56,17 @@
         width: 100%;
     }
 
+    .map {
+    padding-top: 50%;
+    display: inline-block;
+    background-image: url(../img/map.jpg);
+    background-size: contain;
+    width: 100%;
+    margin-top: -80px;
+    height: auto;
+}
+    }
+
 }
 
 /* tablet width <1024px*/
