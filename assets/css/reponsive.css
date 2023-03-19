@@ -1,0 +1,67 @@
+
+/* mobie width<740px */
+
+@media screen and (max-width: 46.1875em) { 
+
+    #header {
+        overflow: hidden;
+        max-height: 100%;
+    }
+   
+    #nav>li {
+        display: block;
+    }
+
+    .subnav {
+        position: initial;
+        background-color: #aaa;
+        padding: 2px 20px;
+
+    }
+
+    .subnav:hover {
+        background-color: #999;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobie-menu-bnt {
+        display: block;
+    }
+    #content .members-list {
+        flex-direction: column;
+
+    }
+    #content .member-img {
+        width: 200px;
+    }
+    .places-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .place-item {
+        width: 100%;
+
+    }
+
+    .contact-body {
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .contact-input {
+        width: 100%;
+    }
+
+}
+
+/* tablet width <1024px*/
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+
+}
+
+
